@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    min-height: 100vh;
+}
+
+.page {
+    width: 1040px;
+    margin: 0 auto;
+    padding-top: 64px;
+}
+
+nav {
+    font-family: 'Mulish', sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 48px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul li a:hover {
+    font-weight: bold; /* Make text bold on hover */
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 88px;
+}
+
+.text h1 {
+    font-family: 'Mulish', sans-serif;
+}
+
+.text h1 span {
+    font-weight: bold; /* Optional: make span text bold */
+}
+
+.text p {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.text button {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    gap: 8px;
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Make button rounded */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Change cursor on hover */
+}
+
+.text button:hover {
+    background-color: #e0e0e0; /* Change background on hover */
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+#balls {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
